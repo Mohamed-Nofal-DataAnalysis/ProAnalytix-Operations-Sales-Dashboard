@@ -2,7 +2,7 @@
 **(Built 100% in Power BI – 4 Pages of Pure Business Intelligence)**
 
 ## Project Objective
-Create a **complete enterprise-grade Power BI dashboard** for **ProAnalytix** that combines:
+Create a **complete enterprise-grade Power BI dashboard** for **ProAnalytix** that combines :
 - Production Efficiency & Machine Downtime
 - Customer Demographics & Sales by Geography
 - Return Rate & Cost Analysis
