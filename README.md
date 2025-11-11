@@ -10,7 +10,7 @@ Create a **complete enterprise-grade Power BI dashboard** for **ProAnalytix** th
 All connected with **real-time slicers** across 4 pages for instant decision-making!
 
 ## Dataset Used
-[Download Full Dataset (4 Excel Files + PBIX)](https://github.com/Mohamed-Nofal-DataAnalysis/ProAnalytix-Operations-Sales-Dashboard/tree/main/Dataset)
+[Download Full Dataset ](https://github.com/Mohamed-Nofal-DataAnalysis/ProAnalytix-Operations-Sales-Dashboard/tree/main/Dataset)
 
 ## Questions (KPIs) Answered Instantly Across 4 Pages
 - **Production**: Efficiency Rate = **79.8%** | Machine Utilization = **89.86%** | Downtime = **394.9 hrs**
@@ -36,18 +36,17 @@ All connected with **real-time slicers** across 4 pages for instant decision-mak
    VAR CurrentYear = SUM(Sales[Amount])
    VAR PreviousYear = CALCULATE(SUM(Sales[Amount]), PREVIOUSYEAR('Date'[Date]))
    RETURN DIVIDE(CurrentYear - PreviousYear, PreviousYear)
-Interactive Slicers (Synced Across All Pages):
+## Interactive Slicers (Synced Across All Pages):
 Year | Quarter | Region | Category | Subcategory | Machine Name | Work Center | Gender | Education
-Visuals Used:
+## Visuals Used:
 
 Donut Charts | Bubble Maps | Funnel | Line + Column Combo | 100% Stacked Bar | KPI Cards | Custom Icons | Drill-through
 
-Dashboard Screenshots (Click to enlarge)
+## Dashboard Screenshots (Click to enlarge)
 <img src="https://github.com/Mohamed-Nofal-DataAnalysis/ProAnalytix-Operations-Sales-Dashboard/blob/main/Sales.png">
 <img src="https://github.com/Mohamed-Nofal-DataAnalysis/ProAnalytix-Operations-Sales-Dashboard/blob/main/Product.png">
 <img src="https://github.com/Mohamed-Nofal-DataAnalysis/ProAnalytix-Operations-Sales-Dashboard/blob/main/Return.png">
 <img src="https://github.com/Mohamed-Nofal-DataAnalysis/Bakery-Sales-Revenue-Power-BI-Dashboard/blob/main/Home%20Page%20.png">
-<img src="https://github.com/Mohamed-Nofal-DataAnalysis/ProAnalytix-Operations-Sales-Dashboard/blob/main/Production.png">
 <img src="https://github.com/Mohamed-Nofal-DataAnalysis/ProAnalytix-Operations-Sales-Dashboard/blob/main/Modeling.png">
 
 ## Key Insights That Will Change Your Strategy
