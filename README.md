@@ -24,7 +24,7 @@ All connected with **real-time slicers** across 4 pages for instant decision-mak
 [Return Dashboard](https://github.com/Mohamed-Nofal-DataAnalysis/ProAnalytix-Operations-Sales-Dashboard/blob/main/Return.png) | 
 [Production Dashboard](https://github.com/Mohamed-Nofal-DataAnalysis/ProAnalytix-Operations-Sales-Dashboard/blob/main/Production.png)
 
-## Process (Enterprise Level – Step by Step)
+## Process (Enterprise Level – Step by Step) :
 1. **Data Collection** → 8 tables (Orders, Returns, Products, Customers, Machines, Downtime, Geography, Calendar)
 2. **Data Cleaning** → Power Query (Fixed dates, removed duplicates, merged queries, created hierarchies)
 3. **Data Modeling** → **Snowflake + Star Schema** + Bidirectional relationships
@@ -36,20 +36,20 @@ All connected with **real-time slicers** across 4 pages for instant decision-mak
    VAR CurrentYear = SUM(Sales[Amount])
    VAR PreviousYear = CALCULATE(SUM(Sales[Amount]), PREVIOUSYEAR('Date'[Date]))
    RETURN DIVIDE(CurrentYear - PreviousYear, PreviousYear)
-## Interactive Slicers (Synced Across All Pages):
+## Interactive Slicers (Synced Across All Pages) :
 Year | Quarter | Region | Category | Subcategory | Machine Name | Work Center | Gender | Education
 ## Visuals Used:
 
 Donut Charts | Bubble Maps | Funnel | Line + Column Combo | 100% Stacked Bar | KPI Cards | Custom Icons | Drill-through
 
-## Dashboard Screenshots (Click to enlarge)
+## Dashboard Screenshots (Click to enlarge) :
 <img src="https://github.com/Mohamed-Nofal-DataAnalysis/ProAnalytix-Operations-Sales-Dashboard/blob/main/Sales.png">
 <img src="https://github.com/Mohamed-Nofal-DataAnalysis/ProAnalytix-Operations-Sales-Dashboard/blob/main/Product.png">
 <img src="https://github.com/Mohamed-Nofal-DataAnalysis/ProAnalytix-Operations-Sales-Dashboard/blob/main/Return.png">
-<img src="https://github.com/Mohamed-Nofal-DataAnalysis/Bakery-Sales-Revenue-Power-BI-Dashboard/blob/main/Home%20Page%20.png">
+<img src="https://github.com/Mohamed-Nofal-DataAnalysis/ProAnalytix-Operations-Sales-Dashboard/blob/main/Production.png">
 <img src="https://github.com/Mohamed-Nofal-DataAnalysis/ProAnalytix-Operations-Sales-Dashboard/blob/main/Modeling.png">
 
-## Key Insights That Will Change Your Strategy
+## Key Insights That Will Change Your Strategy :
 
 Machine2 produces 31M units but has highest downtime (120 hrs) → urgent maintenance needed!
 Bachelors generate $24.1M in sales → target marketing campaigns for college grads
@@ -57,7 +57,7 @@ Return Rate exploded +1942% YoY → "Broken part" = 31.78% of complaints → qua
 Bikes category = 95% of revenue → Accessories & Clothing are dead weight
 France & Australia = top returning countries → review shipping partners there
 
-## Final Conclusion:
+## Final Conclusion :
 This isn’t just a dashboard… it’s a complete operations control room.
 One click shows you:
 
